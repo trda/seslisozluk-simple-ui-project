@@ -4,7 +4,7 @@ Fast and simple seslisozluk dictionary UI. It is an example project for those wh
 Demo URL: [http://sozluk.verb123.com/](http://sozluk.verb123.com/)
 
 ## Getting Started
-If you haven't used [webpack](https://webpack.js.org/) before, be sure to check out the [Getting Started](https://webpack.js.org/guides/getting-started/) guide, as it explains how to create a [webpack](https://webpack.js.org/guides/installation/) as well as install and hot to use webpack-config. 
+If you haven't used [webpack](https://webpack.js.org/) before, be sure to check out the [Getting Started](https://webpack.js.org/guides/getting-started/) guide, as it explains how to create a [webpack](https://webpack.js.org/guides/installation/) as well as install and how to use webpack-config. 
 Once you're familiar with that process, you may install modules:
 
 ```shell
