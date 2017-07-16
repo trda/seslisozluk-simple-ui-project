@@ -35,7 +35,7 @@ export default class SearchPage extends React.Component{
 
     render(){
         return(
-            <div className="form-group">
+            <div>
                 <label className="search-box-label">Lütfen aramak istediğiniz kelimeyi yazınız:</label>
                 <input type='text' value={this.state.word} onChange={this.setValue}  onKeyPress={this.handleKeyPress}  />
                 <br />

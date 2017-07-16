@@ -1,5 +1,5 @@
 # seslisozluk-simple-ui-project
-Fast and simple seslisozluk dictionary UI. It is a simple example for those who want to learn react, react-router, nodejs, axios.
+Fast and simple seslisozluk dictionary UI. It is an example project for those who want to learn react, react-router, nodejs, axios.
 
 Demo URL: [http://sozluk.verb123.com/](http://sozluk.verb123.com/)
 
@@ -30,9 +30,11 @@ node start
 ```
 
 ### Production Mode
-"NODE_ENV=production" should be added into commands.
+In order to deploy the project into production environment, the definition("NODE_ENV=production") should be added into commands.
 
 ```shell
 NODE_ENV=production node_modules/.bin/webpack -p
 NODE_ENV=production node_modules/.bin/babel-node --presets react,es2015 src/server.js
 ```
+
+Now, you can test it on [http://localhost:3000](http://localhost:3000)

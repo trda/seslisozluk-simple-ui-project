@@ -12,7 +12,13 @@ export default class Layout extends React.Component {
         <footer>
           <p>
             <br />
-            <a href="https://www.linkedin.com/in/doganaydin/" target="_blank">Doğan Aydın</a> - <a href="http://www.verb123.com" target="_blank">verb123.com</a> - 2017</p>
+            <a href="https://github.com/trda/seslisozluk-simple-ui-project" target="_blank">GitHub Page</a> -
+            <a href="http://www.verb123.com" target="_blank"> verb123.com</a> - 
+            <a href="https://vocabularyreminder.herokuapp.com/voclist" target="_blank"> Vocabulary List</a>
+            <br /> <br />      
+            <a href="https://www.linkedin.com/in/doganaydin/" target="_blank">Doğan Aydın</a>  
+            - 2017
+          </p>
         </footer>
       </div>
     );

@@ -16,7 +16,7 @@ export default {
                                       .replace(/\\b/g, "")
                                       .replace(/\\f/g, "");
 
-    //custome replacement for seslisozluk
+    //custom replacement for seslisozluk
     escapedJSONString = escapedJSONString.replace(new RegExp('href=', 'g'), 'href=/searchresult')
                                          .replace(/-nedir-ne-demek/g, "");
 
