@@ -1,0 +1,34 @@
+body{
+  font-family: "verdana";
+  color: gray;
+  font-size: 80%;
+}
+
+header {
+  margin: 0px 0px 0px 0px;
+}
+
+footer {
+  vertical-align: bottom;
+  margin-top: 20px;
+}
+
+.app-container {
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.app-content{
+  margin: 5x 0px 5px 0px;
+  min-height:70px;
+}
+
+.result-panel{
+  text-align: left;
+}
+
+.search-box-label{
+  margin: 3px 0px 5px 0px;
+  display:inline-block;
+}
