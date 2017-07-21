@@ -11,7 +11,7 @@ export default class Layout extends React.Component {
         <div className="app-content">{this.props.children}</div>
         <footer>
           <p>
-            <br />
+            <hr />
             <a href="https://github.com/trda/seslisozluk-simple-ui-project" target="_blank">GitHub Page</a> -
             <a href="http://www.verb123.com" target="_blank"> verb123.com</a> - 
             <a href="https://vocabularyreminder.herokuapp.com/voclist" target="_blank"> Vocabulary List</a>
