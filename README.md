@@ -1,7 +1,7 @@
 # seslisozluk-simple-ui-project
 Fast and simple seslisozluk dictionary UI. It is an example project for those who want to learn react, react-router, nodejs, axios.
 
-Demo URL: [http://sozluk.verb123.com/](http://sozluk.verb123.com/)
+Demo URL: [https://seslisozlukextention.herokuapp.com/](https://seslisozlukextention.herokuapp.com/)
 
 Chrome Extension URL: [Sesli Sözlük Modern](https://chrome.google.com/webstore/detail/sesli-s%C3%B6zl%C3%BCk-modern/eligiblbegedpaeakkpchnjdgdlejkln)
 
