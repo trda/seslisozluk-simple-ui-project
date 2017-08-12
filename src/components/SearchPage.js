@@ -27,6 +27,10 @@ export default class SearchPage extends React.Component{
         });
     }
 
+    openOnVerb123(){
+        window.location.assign('https://verb123.herokuapp.com/verb/' + this.state.word);
+    }
+
     handleKeyPress(target) {
         if(target.charCode == 13){ 
             this.sendValue();
@@ -40,6 +44,7 @@ export default class SearchPage extends React.Component{
                 <input type='text' value={this.state.word} onChange={this.setValue}  onKeyPress={this.handleKeyPress}  />
                 <br />
                 <button onClick={() => {this.sendValue()}}>Ara</button>
+                <button onClick={() => {this.openOnVerb123()}}>Hallerini Göster</button>
             </div>
         );
     }
