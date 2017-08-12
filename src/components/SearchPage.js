@@ -6,7 +6,8 @@ export default class SearchPage extends React.Component{
 
     constructor(props){
         super(props);
-        this.sendValue = this.sendValue.bind(this);    
+        this.sendValue = this.sendValue.bind(this);  
+        this.openOnVerb123 = this.openOnVerb123.bind(this);
         this.setValue = this.setValue.bind(this);
         this.handleKeyPress = this.handleKeyPress.bind(this);
         
