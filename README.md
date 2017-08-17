@@ -38,5 +38,10 @@ In order to deploy the project into production environment, the definition("NODE
 NODE_ENV=production node_modules/.bin/webpack -p
 NODE_ENV=production node_modules/.bin/babel-node --presets react,es2015 src/server.js
 ```
+or
+```shell
+npm build
+npm start
+```
 
 Now, you can test it on [http://localhost:3000](http://localhost:3000)

@@ -8,6 +8,7 @@ export default class SearchPage extends React.Component{
         super(props);
         this.sendValue = this.sendValue.bind(this);  
         this.openOnVerb123 = this.openOnVerb123.bind(this);
+        this.openSesliSozluk = this.openSesliSozluk.bind(this);
         this.setValue = this.setValue.bind(this);
         this.handleKeyPress = this.handleKeyPress.bind(this);
         
@@ -29,7 +30,11 @@ export default class SearchPage extends React.Component{
     }
 
     openOnVerb123(){
-        window.location.assign('https://verb123.herokuapp.com/verb/' + this.state.word);
+        window.location.assign("https://verb123.herokuapp.com/verb/" + this.state.word);
+    }
+
+    openSesliSozluk(){
+        window.location.assign("https://www.seslisozluk.net/" + this.state.word + "-nedir-ne-demek/");
     }
 
     handleKeyPress(target) {
@@ -45,7 +50,8 @@ export default class SearchPage extends React.Component{
                 <input type='text' value={this.state.word} onChange={this.setValue}  onKeyPress={this.handleKeyPress}  />
                 <br />
                 <button onClick={() => {this.sendValue()}}>Ara</button>
-                <button onClick={() => {this.openOnVerb123()}}>Hallerini Göster</button>
+                <button onClick={() => {this.openOnVerb123()}}>Halleri</button>
+                <button onClick={() => {this.openSesliSozluk()}}>Orjinal</button>
             </div>
         );
     }

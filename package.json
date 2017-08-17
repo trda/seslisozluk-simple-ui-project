@@ -4,6 +4,7 @@
   "description": "seslisozluk-simple-ui-project",
   "main": "/src/server.js",
   "scripts": {
+    "build": "NODE_ENV=production node_modules/.bin/webpack -p",
     "start": "NODE_ENV=production node_modules/.bin/babel-node --presets react,es2015 src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
