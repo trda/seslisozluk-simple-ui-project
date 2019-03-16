@@ -14,7 +14,7 @@ export default class Layout extends React.Component {
             <hr />
             <a href="https://github.com/trda/seslisozluk-simple-ui-project" target="_blank">GitHub Page</a> -
             <a href="http://www.verb123.com" target="_blank"> verb123.com</a> - 
-            <a href="http://vocabulary.verb123.com/voclist" target="_blank"> Vocabulary List</a>
+            <a href="http://vocabulary.verb123.com/voclist" target="_blank"> Vocabulary Reminder</a>
             <br /> <br />      
             <a href="https://www.linkedin.com/in/doganaydin/" target="_blank">Doğan Aydın</a>  
             - 2017
